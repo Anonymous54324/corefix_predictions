@@ -1,0 +1,8 @@
+direct git url to file and line number: https://www.github.com/neoighodaro/angular-4-status-update-reactions/commit/3d5a820d7e584cc0d254d587847352ab4fe4f525/#diff-273f4e234abc8200483198ca4eb221922578be97acd05c70ed58bc53e8484e69L32
+
+commit_url: https://www.github.com/neoighodaro/angular-4-status-update-reactions/commit/3d5a820d7e584cc0d254d587847352ab4fe4f525
+
+filename: src/app/statuses/statuses.service.ts
+
+
+

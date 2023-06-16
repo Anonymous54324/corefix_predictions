@@ -1,0 +1,8 @@
+direct git url to file and line number: https://www.github.com/Submersible/node-figs/commit/1b4da46205470c44c9d870c4770636278ff6b8e2/#diff-e92f63f5acde594e588a7a616b4af3cbfd20cca8ef5a383ba52e2f14915d1ddfL76
+
+commit_url: https://www.github.com/Submersible/node-figs/commit/1b4da46205470c44c9d870c4770636278ff6b8e2
+
+filename: util.js
+
+
+

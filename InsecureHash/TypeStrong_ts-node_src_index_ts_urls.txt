@@ -1,0 +1,8 @@
+direct git url to file and line number: https://www.github.com/TypeStrong/ts-node/commit/67eabed0264f1194a14d6bdc12b5d69aba14f8f7/#diff-a2a171449d862fe29692ce031981047d7ab755ae7f84c707aef80701b3ea0c80L535
+
+commit_url: https://www.github.com/TypeStrong/ts-node/commit/67eabed0264f1194a14d6bdc12b5d69aba14f8f7
+
+filename: src/index.ts
+
+
+

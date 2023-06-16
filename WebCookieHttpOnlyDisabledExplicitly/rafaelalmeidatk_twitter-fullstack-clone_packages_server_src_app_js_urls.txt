@@ -1,0 +1,8 @@
+direct git url to file and line number: https://www.github.com/rafaelalmeidatk/twitter-fullstack-clone/commit/4a7bc14a6b116c61bde3780884166d71107ad944/#diff-0ae6999e4ba17ab6f7970ad80cbea5af22ec90d0e6c6df75837cab7898d13d46L42
+
+commit_url: https://www.github.com/rafaelalmeidatk/twitter-fullstack-clone/commit/4a7bc14a6b116c61bde3780884166d71107ad944
+
+filename: packages/server/src/app.js
+
+
+

@@ -1,0 +1,8 @@
+direct git url to file and line number: https://www.github.com/google/wikiloop-battlefield/commit/e54785c45962537621cbf8e8ec0747eea47446e1/#diff-6c03e3f5cc81cff6c2780b83167f5bf3e9ba8734894b0dc7d11dff461c845844L36
+
+commit_url: https://www.github.com/google/wikiloop-battlefield/commit/e54785c45962537621cbf8e8ec0747eea47446e1
+
+filename: server/common.js
+
+
+

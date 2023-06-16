@@ -1,0 +1,8 @@
+direct git url to file and line number: https://www.github.com/sanctuary-js/sanctuary/commit/5941eb58a0d21c7e586fd40dc525ef1a007ec24d/#diff-5bb8db779819ddef5956a5d9d5949c05ef7445237656ca37bf2f02720271440bL121
+
+commit_url: https://www.github.com/sanctuary-js/sanctuary/commit/5941eb58a0d21c7e586fd40dc525ef1a007ec24d
+
+filename: test/index.js
+
+
+

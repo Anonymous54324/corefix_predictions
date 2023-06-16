@@ -1,0 +1,8 @@
+direct git url to file and line number: https://www.github.com/kristianoye/kmud/commit/137bea4dc82da48eee182594b315f5cf3849b80f/#diff-baca39e562032e81fc21b65f3787108b23e17a4be14a2784db8ea3e281ea7995L284
+
+commit_url: https://www.github.com/kristianoye/kmud/commit/137bea4dc82da48eee182594b315f5cf3849b80f
+
+filename: src/MUDModule.js
+
+
+

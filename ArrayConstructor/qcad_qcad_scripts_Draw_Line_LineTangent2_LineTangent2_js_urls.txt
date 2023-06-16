@@ -1,0 +1,8 @@
+direct git url to file and line number: https://www.github.com/qcad/qcad/commit/267b25ef9540e082982217ddda71c56a6d33f384/#diff-32d941c7f167a2ececcd970eab780d8b4bcca07d47807d438fd7da95363414abL180
+
+commit_url: https://www.github.com/qcad/qcad/commit/267b25ef9540e082982217ddda71c56a6d33f384
+
+filename: scripts/Draw/Line/LineTangent2/LineTangent2.js
+
+
+

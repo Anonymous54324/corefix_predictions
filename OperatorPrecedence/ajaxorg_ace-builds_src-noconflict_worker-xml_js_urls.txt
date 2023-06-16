@@ -1,0 +1,8 @@
+direct git url to file and line number: https://www.github.com/ajaxorg/ace-builds/commit/f5fdb2d0a975136ded5a4976e47d345d8042f4a0/#diff-7e86c3588da1c8e34fe5b7a1558f5f69fe69df030f922ecca80fbdb8f2137349L1249
+
+commit_url: https://www.github.com/ajaxorg/ace-builds/commit/f5fdb2d0a975136ded5a4976e47d345d8042f4a0
+
+filename: src-noconflict/worker-xml.js
+
+
+

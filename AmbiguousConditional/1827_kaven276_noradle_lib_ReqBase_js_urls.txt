@@ -1,0 +1,8 @@
+direct git url to file and line number: https://www.github.com/kaven276/noradle/commit/b09c78a659bb3e371a2c84ffecc8dfb557e7d173/#diff-52e4a614248d6cf5dcd990ee3d721a668f16aecce19e629860adabbd2b150ed8L57
+
+commit_url: https://www.github.com/kaven276/noradle/commit/b09c78a659bb3e371a2c84ffecc8dfb557e7d173
+
+filename: lib/ReqBase.js
+
+
+

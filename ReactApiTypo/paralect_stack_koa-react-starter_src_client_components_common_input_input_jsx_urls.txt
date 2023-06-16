@@ -1,0 +1,8 @@
+direct git url to file and line number: https://www.github.com/paralect/stack/commit/27e9bc5481c3db551933997a214b6268aee6d67e/#diff-9c925bc99f694e0aeef9849465911c52b75dcda96855e955958593396744e7c9L8
+
+commit_url: https://www.github.com/paralect/stack/commit/27e9bc5481c3db551933997a214b6268aee6d67e
+
+filename: koa-react-starter/src/client/components/common/input/input.jsx
+
+
+

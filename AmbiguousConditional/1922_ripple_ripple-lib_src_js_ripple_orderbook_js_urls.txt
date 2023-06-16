@@ -1,0 +1,8 @@
+direct git url to file and line number: https://www.github.com/ripple/ripple-lib/commit/f077624212d9f84aa5b974bf2255c39fe4165780/#diff-a799792dcdcceb37ffe8e7fd93bb498e8204e0d26c0a8e83fd266fc2316c9883L139
+
+commit_url: https://www.github.com/ripple/ripple-lib/commit/f077624212d9f84aa5b974bf2255c39fe4165780
+
+filename: src/js/ripple/orderbook.js
+
+
+

@@ -1,0 +1,8 @@
+direct git url to file and line number: https://www.github.com/adblockplus/adblockpluschrome/commit/1a46237af7c6713d4e4b0027de51fc5ffb14f492/#diff-c41bd7fe5fe3de635214bb5873102a1ce9f6edcc8b7c477730a43223a3afb297L440
+
+commit_url: https://www.github.com/adblockplus/adblockpluschrome/commit/1a46237af7c6713d4e4b0027de51fc5ffb14f492
+
+filename: lib/punycode.js
+
+
+

@@ -1,0 +1,8 @@
+direct git url to file and line number: https://www.github.com/node-webot/weixin-robot/commit/1ea71e8a5c603de92f7f30e6bbfb11b490132433/#diff-e315be95a44088614deb448ce86d3b09e4b3c55751d55fdf5ec9d7a119beae31L1
+
+commit_url: https://www.github.com/node-webot/weixin-robot/commit/1ea71e8a5c603de92f7f30e6bbfb11b490132433
+
+filename: config_example.js
+
+
+

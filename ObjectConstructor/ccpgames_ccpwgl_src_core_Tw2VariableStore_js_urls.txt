@@ -1,0 +1,8 @@
+direct git url to file and line number: https://www.github.com/ccpgames/ccpwgl/commit/1a25155f43012ca9a13095285446c486850dbe1d/#diff-96d7194aa9d6200e917e04288456c341b2b5d3272894e407d478f1c3181de1b5L3
+
+commit_url: https://www.github.com/ccpgames/ccpwgl/commit/1a25155f43012ca9a13095285446c486850dbe1d
+
+filename: src/core/Tw2VariableStore.js
+
+
+

@@ -1,0 +1,86 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+
+<head>
+    <meta http-equiv="Content-Type"
+          content="text/html; charset=utf-8" />
+    <title></title>
+    <style type="text/css">
+        table.diff {font-family:Courier; border:medium;}
+        .diff_header {background-color:#e0e0e0}
+        td.diff_header {text-align:right}
+        .diff_next {background-color:#c0c0c0}
+        .diff_add {background-color:#aaffaa}
+        .diff_chg {background-color:#ffff77}
+        .diff_sub {background-color:#ffaaaa}
+    </style>
+</head>
+
+<body>
+    
+    <table class="diff" id="difflib_chg_to12479__top"
+           cellspacing="0" cellpadding="0" rules="groups" >
+        <colgroup></colgroup> <colgroup></colgroup> <colgroup></colgroup>
+        <colgroup></colgroup> <colgroup></colgroup> <colgroup></colgroup>
+        <thead><tr><th class="diff_next"><br /></th><th colspan="2" class="diff_header">Code Reduced Buggy src/compiler/truthiness.ts</th><th class="diff_next"><br /></th><th colspan="2" class="diff_header">Code Reduced Fixed src/compiler/truthiness.ts</th></tr></thead>
+        <tbody>
+            <tr><td class="diff_next"><a href="#difflib_chg_to12479__0">f</a></td><td class="diff_header" id="from12479_1">1</td><td nowrap="nowrap">type&nbsp;TruthyCompileData&nbsp;=&nbsp;ReturnType&lt;typeof&nbsp;getTruthyCompileData&gt;;</td><td class="diff_next"><a href="#difflib_chg_to12479__0">f</a></td><td class="diff_header" id="to12479_1">1</td><td nowrap="nowrap">type&nbsp;TruthyCompileData&nbsp;=&nbsp;ReturnType&lt;typeof&nbsp;getTruthyCompileData&gt;;</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from12479_2">2</td><td nowrap="nowrap">interface&nbsp;NestedExpression&nbsp;{</td><td class="diff_next"></td><td class="diff_header" id="to12479_2">2</td><td nowrap="nowrap">interface&nbsp;NestedExpression&nbsp;{</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from12479_3">3</td><td nowrap="nowrap">&nbsp;&nbsp;exp:&nbsp;ts.Expression;</td><td class="diff_next"></td><td class="diff_header" id="to12479_3">3</td><td nowrap="nowrap">&nbsp;&nbsp;exp:&nbsp;ts.Expression;</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from12479_4">4</td><td nowrap="nowrap">&nbsp;&nbsp;compileData:&nbsp;TruthyCompileData;</td><td class="diff_next"></td><td class="diff_header" id="to12479_4">4</td><td nowrap="nowrap">&nbsp;&nbsp;compileData:&nbsp;TruthyCompileData;</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from12479_5">5</td><td nowrap="nowrap">&nbsp;&nbsp;expStr:&nbsp;string;</td><td class="diff_next"></td><td class="diff_header" id="to12479_5">5</td><td nowrap="nowrap">&nbsp;&nbsp;expStr:&nbsp;string;</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from12479_6">6</td><td nowrap="nowrap">&nbsp;&nbsp;context:&nbsp;PrecedingStatementContext;</td><td class="diff_next"></td><td class="diff_header" id="to12479_6">6</td><td nowrap="nowrap">&nbsp;&nbsp;context:&nbsp;PrecedingStatementContext;</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from12479_7">7</td><td nowrap="nowrap">&nbsp;&nbsp;isMeta:&nbsp;false;</td><td class="diff_next"></td><td class="diff_header" id="to12479_7">7</td><td nowrap="nowrap">&nbsp;&nbsp;isMeta:&nbsp;false;</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from12479_8">8</td><td nowrap="nowrap">}</td><td class="diff_next"></td><td class="diff_header" id="to12479_8">8</td><td nowrap="nowrap">}</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from12479_9">9</td><td nowrap="nowrap">interface&nbsp;NestedExpressions&nbsp;{</td><td class="diff_next"></td><td class="diff_header" id="to12479_9">9</td><td nowrap="nowrap">interface&nbsp;NestedExpressions&nbsp;{</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from12479_10">10</td><td nowrap="nowrap">&nbsp;&nbsp;exp:&nbsp;ts.Expression;</td><td class="diff_next"></td><td class="diff_header" id="to12479_10">10</td><td nowrap="nowrap">&nbsp;&nbsp;exp:&nbsp;ts.Expression;</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from12479_11">11</td><td nowrap="nowrap">&nbsp;&nbsp;exprs:&nbsp;Array&lt;NestedExpression&nbsp;|&nbsp;NestedExpressions&gt;;</td><td class="diff_next"></td><td class="diff_header" id="to12479_11">11</td><td nowrap="nowrap">&nbsp;&nbsp;exprs:&nbsp;Array&lt;NestedExpression&nbsp;|&nbsp;NestedExpressions&gt;;</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from12479_12">12</td><td nowrap="nowrap">&nbsp;&nbsp;isAnd:&nbsp;boolean;</td><td class="diff_next"></td><td class="diff_header" id="to12479_12">12</td><td nowrap="nowrap">&nbsp;&nbsp;isAnd:&nbsp;boolean;</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from12479_13">13</td><td nowrap="nowrap">&nbsp;&nbsp;compileData:&nbsp;TruthyCompileData;</td><td class="diff_next"></td><td class="diff_header" id="to12479_13">13</td><td nowrap="nowrap">&nbsp;&nbsp;compileData:&nbsp;TruthyCompileData;</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from12479_14">14</td><td nowrap="nowrap">&nbsp;&nbsp;isMeta:&nbsp;true;</td><td class="diff_next"></td><td class="diff_header" id="to12479_14">14</td><td nowrap="nowrap">&nbsp;&nbsp;isMeta:&nbsp;true;</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from12479_15">15</td><td nowrap="nowrap">&nbsp;&nbsp;parent:&nbsp;NestedExpressions&nbsp;|&nbsp;undefined;</td><td class="diff_next"></td><td class="diff_header" id="to12479_15">15</td><td nowrap="nowrap">&nbsp;&nbsp;parent:&nbsp;NestedExpressions&nbsp;|&nbsp;undefined;</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from12479_16">16</td><td nowrap="nowrap">}</td><td class="diff_next"></td><td class="diff_header" id="to12479_16">16</td><td nowrap="nowrap">}</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from12479_17">17</td><td nowrap="nowrap">function&nbsp;makeNestedExpressions(</td><td class="diff_next"></td><td class="diff_header" id="to12479_17">17</td><td nowrap="nowrap">function&nbsp;makeNestedExpressions(</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from12479_18">18</td><td nowrap="nowrap">&nbsp;&nbsp;exp:&nbsp;ts.Expression,</td><td class="diff_next"></td><td class="diff_header" id="to12479_18">18</td><td nowrap="nowrap">&nbsp;&nbsp;exp:&nbsp;ts.Expression,</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from12479_19">19</td><td nowrap="nowrap">&nbsp;&nbsp;isAnd:&nbsp;boolean,</td><td class="diff_next"></td><td class="diff_header" id="to12479_19">19</td><td nowrap="nowrap">&nbsp;&nbsp;isAnd:&nbsp;boolean,</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from12479_20">20</td><td nowrap="nowrap">&nbsp;&nbsp;parent?:&nbsp;NestedExpressions,</td><td class="diff_next"></td><td class="diff_header" id="to12479_20">20</td><td nowrap="nowrap">&nbsp;&nbsp;parent?:&nbsp;NestedExpressions,</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from12479_21">21</td><td nowrap="nowrap">&nbsp;&nbsp;compileData:&nbsp;TruthyCompileData&nbsp;=&nbsp;{</td><td class="diff_next"></td><td class="diff_header" id="to12479_21">21</td><td nowrap="nowrap">&nbsp;&nbsp;compileData:&nbsp;TruthyCompileData&nbsp;=&nbsp;{</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from12479_22">22</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;checkEmptyString:&nbsp;false,</td><td class="diff_next"></td><td class="diff_header" id="to12479_22">22</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;checkEmptyString:&nbsp;false,</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from12479_23">23</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;checkLuaTruthy:&nbsp;false,</td><td class="diff_next"></td><td class="diff_header" id="to12479_23">23</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;checkLuaTruthy:&nbsp;false,</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from12479_24">24</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;checkNaN:&nbsp;false,</td><td class="diff_next"></td><td class="diff_header" id="to12479_24">24</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;checkNaN:&nbsp;false,</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from12479_25">25</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;checkNon0:&nbsp;false,</td><td class="diff_next"></td><td class="diff_header" id="to12479_25">25</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;checkNon0:&nbsp;false,</td></tr>
+            <tr><td class="diff_next" id="difflib_chg_to12479__0"></td><td class="diff_header" id="from12479_26">26</td><td nowrap="nowrap">&nbsp;&nbsp;},</td><td class="diff_next"></td><td class="diff_header" id="to12479_26">26</td><td nowrap="nowrap">&nbsp;&nbsp;},</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from12479_27">27</td><td nowrap="nowrap">):&nbsp;NestedExpressions&nbsp;{</td><td class="diff_next"></td><td class="diff_header" id="to12479_27">27</td><td nowrap="nowrap">):&nbsp;NestedExpressions&nbsp;{</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from12479_28">28</td><td nowrap="nowrap">&nbsp;&nbsp;return&nbsp;{</td><td class="diff_next"></td><td class="diff_header" id="to12479_28">28</td><td nowrap="nowrap">&nbsp;&nbsp;return&nbsp;{</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from12479_29">29</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;compileData,</td><td class="diff_next"></td><td class="diff_header" id="to12479_29">29</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;compileData,</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from12479_30">30</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;exp,</td><td class="diff_next"></td><td class="diff_header" id="to12479_30">30</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;exp,</td></tr>
+            <tr><td class="diff_next"><a href="#difflib_chg_to12479__top">t</a></td><td class="diff_header" id="from12479_31">31</td><td nowrap="nowrap"><span class="diff_sub">&nbsp;&nbsp;&nbsp;&nbsp;exprs:&nbsp;new&nbsp;Array(),</span></td><td class="diff_next"><a href="#difflib_chg_to12479__top">t</a></td><td class="diff_header" id="to12479_31">31</td><td nowrap="nowrap"><span class="diff_add">&nbsp;&nbsp;&nbsp;&nbsp;exprs:&nbsp;[],</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from12479_32">32</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;isAnd,</td><td class="diff_next"></td><td class="diff_header" id="to12479_32">32</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;isAnd,</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from12479_33">33</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;isMeta:&nbsp;true,</td><td class="diff_next"></td><td class="diff_header" id="to12479_33">33</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;isMeta:&nbsp;true,</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from12479_34">34</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;parent,</td><td class="diff_next"></td><td class="diff_header" id="to12479_34">34</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;parent,</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from12479_35">35</td><td nowrap="nowrap">&nbsp;&nbsp;};</td><td class="diff_next"></td><td class="diff_header" id="to12479_35">35</td><td nowrap="nowrap">&nbsp;&nbsp;};</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from12479_36">36</td><td nowrap="nowrap">}</td><td class="diff_next"></td><td class="diff_header" id="to12479_36">36</td><td nowrap="nowrap">}</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from12479_37">37</td><td nowrap="nowrap">type&nbsp;LogicalBinaryState&nbsp;=&nbsp;ReturnType&lt;typeof&nbsp;makeLogicalBinaryState&gt;;</td><td class="diff_next"></td><td class="diff_header" id="to12479_37">37</td><td nowrap="nowrap">type&nbsp;LogicalBinaryState&nbsp;=&nbsp;ReturnType&lt;typeof&nbsp;makeLogicalBinaryState&gt;;</td></tr>
+        </tbody>
+    </table>
+    <table class="diff" summary="Legends">
+        <tr> <th colspan="2"> Legends </th> </tr>
+        <tr> <td> <table border="" summary="Colors">
+                      <tr><th> Colors </th> </tr>
+                      <tr><td class="diff_add">&nbsp;Added&nbsp;</td></tr>
+                      <tr><td class="diff_chg">Changed</td> </tr>
+                      <tr><td class="diff_sub">Deleted</td> </tr>
+                  </table></td>
+             <td> <table border="" summary="Links">
+                      <tr><th colspan="2"> Links </th> </tr>
+                      <tr><td>(f)irst change</td> </tr>
+                      <tr><td>(n)ext change</td> </tr>
+                      <tr><td>(t)op</td> </tr>
+                  </table></td> </tr>
+    </table>
+</body>
+
+</html>

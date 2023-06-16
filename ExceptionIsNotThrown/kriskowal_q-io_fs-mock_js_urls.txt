@@ -1,0 +1,8 @@
+direct git url to file and line number: https://www.github.com/kriskowal/q-io/commit/cc7f49b84627d3aa6d55d91d6a959c0c2ca3966b/#diff-86c8d9324a76c611cf074bef84853ef48191a2201c35bc49a5bee157c4f4e223L64
+
+commit_url: https://www.github.com/kriskowal/q-io/commit/cc7f49b84627d3aa6d55d91d6a959c0c2ca3966b
+
+filename: fs-mock.js
+
+
+

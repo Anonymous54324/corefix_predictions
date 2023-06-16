@@ -1,0 +1,8 @@
+direct git url to file and line number: https://www.github.com/RaedsLab/CryptoFire-Chat/commit/8908c3afae16c85d7b7d7121ca31cc4e7889d879/#diff-34000fb44ea6b3e07d995f4969f2801ba0ddea85eaf0ae5c29c922ff9a58d4b3L229
+
+commit_url: https://www.github.com/RaedsLab/CryptoFire-Chat/commit/8908c3afae16c85d7b7d7121ca31cc4e7889d879
+
+filename: scripts/webCrypto.js
+
+
+

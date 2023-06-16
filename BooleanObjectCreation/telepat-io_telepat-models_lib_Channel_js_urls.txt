@@ -1,0 +1,8 @@
+direct git url to file and line number: https://www.github.com/telepat-io/telepat-models/commit/d0a96655b9fad2c58e7d101238785df30bdc1241/#diff-90812a094d0deb3968ba58239931a92546c2842150db60812951d24698897261L111
+
+commit_url: https://www.github.com/telepat-io/telepat-models/commit/d0a96655b9fad2c58e7d101238785df30bdc1241
+
+filename: lib/Channel.js
+
+
+

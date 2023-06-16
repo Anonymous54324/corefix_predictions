@@ -1,0 +1,8 @@
+direct git url to file and line number: https://www.github.com/gaearon/flux-react-router-example/commit/7db138acdb7a6151be3a651aa0f59c378a0b95bd/#diff-7d8ce06d605bcd144c8952961dea26b47c4a5eabdad930530bb868ff2afa322dL26
+
+commit_url: https://www.github.com/gaearon/flux-react-router-example/commit/7db138acdb7a6151be3a651aa0f59c378a0b95bd
+
+filename: scripts/utils/connectToStores.js
+
+
+

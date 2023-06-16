@@ -1,0 +1,8 @@
+direct git url to file and line number: https://www.github.com/datosgobar/consulta-publica/commit/e35864531b4406a691aa93d4ee3ea8ba978c6166/#diff-5bea8fd8c1c85140f6fec56256e5121ae7b0d5a3c4a34192f4343fa17e0ee7edL48
+
+commit_url: https://www.github.com/datosgobar/consulta-publica/commit/e35864531b4406a691aa93d4ee3ea8ba978c6166
+
+filename: lib/jwt/index.js
+
+
+

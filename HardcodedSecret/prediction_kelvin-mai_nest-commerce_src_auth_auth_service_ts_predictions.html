@@ -1,0 +1,56 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+
+<head>
+    <meta http-equiv="Content-Type"
+          content="text/html; charset=utf-8" />
+    <title></title>
+    <style type="text/css">
+        table.diff {font-family:Courier; border:medium;}
+        .diff_header {background-color:#e0e0e0}
+        td.diff_header {text-align:right}
+        .diff_next {background-color:#c0c0c0}
+        .diff_add {background-color:#aaffaa}
+        .diff_chg {background-color:#ffff77}
+        .diff_sub {background-color:#ffaaaa}
+    </style>
+</head>
+
+<body>
+    
+    <table class="diff" id="difflib_chg_to6941__top"
+           cellspacing="0" cellpadding="0" rules="groups" >
+        <colgroup></colgroup> <colgroup></colgroup> <colgroup></colgroup>
+        <colgroup></colgroup> <colgroup></colgroup> <colgroup></colgroup>
+        <thead><tr><th class="diff_next"><br /></th><th colspan="2" class="diff_header">Code Reduced Buggy src/auth/auth.service.ts</th><th class="diff_next"><br /></th><th colspan="2" class="diff_header">Code Reduced Fixed src/auth/auth.service.ts</th></tr></thead>
+        <tbody>
+            <tr><td class="diff_next" id="difflib_chg_to6941__0"><a href="#difflib_chg_to6941__0">f</a></td><td class="diff_header" id="from6941_1">1</td><td nowrap="nowrap">import&nbsp;{&nbsp;sign&nbsp;}&nbsp;from&nbsp;'jsonwebtoken';</td><td class="diff_next"><a href="#difflib_chg_to6941__0">f</a></td><td class="diff_header" id="to6941_1">1</td><td nowrap="nowrap">import&nbsp;{&nbsp;sign&nbsp;}&nbsp;from&nbsp;'jsonwebtoken';</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from6941_2">2</td><td nowrap="nowrap">@Injectable()</td><td class="diff_next"></td><td class="diff_header" id="to6941_2">2</td><td nowrap="nowrap">@Injectable()</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from6941_3">3</td><td nowrap="nowrap">export&nbsp;class&nbsp;AuthService&nbsp;{</td><td class="diff_next"></td><td class="diff_header" id="to6941_3">3</td><td nowrap="nowrap">export&nbsp;class&nbsp;AuthService&nbsp;{</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from6941_4">4</td><td nowrap="nowrap">&nbsp;&nbsp;async&nbsp;signPayload(payload:&nbsp;Payload)&nbsp;{</td><td class="diff_next"></td><td class="diff_header" id="to6941_4">4</td><td nowrap="nowrap">&nbsp;&nbsp;async&nbsp;signPayload(payload:&nbsp;Payload)&nbsp;{</td></tr>
+            <tr><td class="diff_next"><a href="#difflib_chg_to6941__top">t</a></td><td class="diff_header" id="from6941_5">5</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;sign(payload,&nbsp;<span class="diff_chg">'</span>se<span class="diff_chg">cret</span>K<span class="diff_chg">ey'</span>,&nbsp;{&nbsp;expiresIn:&nbsp;'12h'&nbsp;});</td><td class="diff_next"><a href="#difflib_chg_to6941__top">t</a></td><td class="diff_header" id="to6941_5">5</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;sign(payload,&nbsp;<span class="diff_chg">proce</span>s<span class="diff_add">s.</span>e<span class="diff_chg">nv.SECRET_</span>K<span class="diff_chg">EY</span>,&nbsp;{&nbsp;expiresIn:&nbsp;'12h'&nbsp;});</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from6941_6">6</td><td nowrap="nowrap">&nbsp;&nbsp;}</td><td class="diff_next"></td><td class="diff_header" id="to6941_6">6</td><td nowrap="nowrap">&nbsp;&nbsp;}</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from6941_7">7</td><td nowrap="nowrap">}</td><td class="diff_next"></td><td class="diff_header" id="to6941_7">7</td><td nowrap="nowrap">}</td></tr>
+        </tbody>
+    </table>
+    <table class="diff" summary="Legends">
+        <tr> <th colspan="2"> Legends </th> </tr>
+        <tr> <td> <table border="" summary="Colors">
+                      <tr><th> Colors </th> </tr>
+                      <tr><td class="diff_add">&nbsp;Added&nbsp;</td></tr>
+                      <tr><td class="diff_chg">Changed</td> </tr>
+                      <tr><td class="diff_sub">Deleted</td> </tr>
+                  </table></td>
+             <td> <table border="" summary="Links">
+                      <tr><th colspan="2"> Links </th> </tr>
+                      <tr><td>(f)irst change</td> </tr>
+                      <tr><td>(n)ext change</td> </tr>
+                      <tr><td>(t)op</td> </tr>
+                  </table></td> </tr>
+    </table>
+</body>
+
+</html>

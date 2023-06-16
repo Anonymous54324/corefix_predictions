@@ -1,0 +1,8 @@
+direct git url to file and line number: https://www.github.com/TyVik/geopuzzle/commit/775a11a6c6b8e627a448a9db0c28a3265aad4cab/#diff-02e3fa43cfaf67d88357981c63d4b05e32b42150016c8eb3980158e1d8055f63L19
+
+commit_url: https://www.github.com/TyVik/geopuzzle/commit/775a11a6c6b8e627a448a9db0c28a3265aad4cab
+
+filename: frontend/reducers/map.jsx
+
+
+

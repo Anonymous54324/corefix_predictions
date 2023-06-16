@@ -1,0 +1,8 @@
+direct git url to file and line number: https://www.github.com/ZeroCho/nodejs-book/commit/78b2325759b6c11afbe81ff62a2745693a8ed032/#diff-88fcf7010b371b664350097415a20dce37462b8ab42486130ca12139213a95b8L32
+
+commit_url: https://www.github.com/ZeroCho/nodejs-book/commit/78b2325759b6c11afbe81ff62a2745693a8ed032
+
+filename: ch10/nodebird-api/app.js
+
+
+

@@ -1,0 +1,8 @@
+direct git url to file and line number: https://www.github.com/fram-x/react-native-fluid/commit/92d4e8e0f3f87de108d49c18e596caba13450b9a/#diff-7246395688c9b8bf18630590b85a17bec4a402f2446ee877b6fcbe04adb473b8L64
+
+commit_url: https://www.github.com/fram-x/react-native-fluid/commit/92d4e8e0f3f87de108d49c18e596caba13450b9a
+
+filename: src/packages/animated/src/react-native-animated/index.ts
+
+
+

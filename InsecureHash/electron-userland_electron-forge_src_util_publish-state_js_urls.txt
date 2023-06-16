@@ -1,0 +1,8 @@
+direct git url to file and line number: https://www.github.com/electron-userland/electron-forge/commit/c69db80fb407b53fe60094cb8040510bb867bf34/#diff-aabb2fd6863c7c2ed559c885a57a62c5670a4eefed928064b4b4f46b9413cf98L34
+
+commit_url: https://www.github.com/electron-userland/electron-forge/commit/c69db80fb407b53fe60094cb8040510bb867bf34
+
+filename: src/util/publish-state.js
+
+
+

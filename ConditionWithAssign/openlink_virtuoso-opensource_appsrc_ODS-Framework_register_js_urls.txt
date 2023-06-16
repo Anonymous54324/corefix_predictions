@@ -1,0 +1,8 @@
+direct git url to file and line number: https://www.github.com/openlink/virtuoso-opensource/commit/1bb1dd851ff2ac7aa4c34f877b091c76dcc2a7db/#diff-bf5394e28bfcabfc2ef112d41cced9dc2e32f2f763b35356e16000434fe58db4L569
+
+commit_url: https://www.github.com/openlink/virtuoso-opensource/commit/1bb1dd851ff2ac7aa4c34f877b091c76dcc2a7db
+
+filename: appsrc/ODS-Framework/register.js
+
+
+

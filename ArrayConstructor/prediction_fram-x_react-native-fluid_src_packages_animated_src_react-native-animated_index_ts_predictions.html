@@ -1,0 +1,71 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+
+<head>
+    <meta http-equiv="Content-Type"
+          content="text/html; charset=utf-8" />
+    <title></title>
+    <style type="text/css">
+        table.diff {font-family:Courier; border:medium;}
+        .diff_header {background-color:#e0e0e0}
+        td.diff_header {text-align:right}
+        .diff_next {background-color:#c0c0c0}
+        .diff_add {background-color:#aaffaa}
+        .diff_chg {background-color:#ffff77}
+        .diff_sub {background-color:#ffaaaa}
+    </style>
+</head>
+
+<body>
+    
+    <table class="diff" id="difflib_chg_to12395__top"
+           cellspacing="0" cellpadding="0" rules="groups" >
+        <colgroup></colgroup> <colgroup></colgroup> <colgroup></colgroup>
+        <colgroup></colgroup> <colgroup></colgroup> <colgroup></colgroup>
+        <thead><tr><th class="diff_next"><br /></th><th colspan="2" class="diff_header">Code Reduced Buggy src/packages/animated/src/react-native-animated/index.ts</th><th class="diff_next"><br /></th><th colspan="2" class="diff_header">Code Reduced Fixed src/packages/animated/src/react-native-animated/index.ts</th></tr></thead>
+        <tbody>
+            <tr><td class="diff_next"><a href="#difflib_chg_to12395__0">f</a></td><td class="diff_header" id="from12395_1">1</td><td nowrap="nowrap">import&nbsp;{&nbsp;IAnimationNode,&nbsp;IAnimationValue&nbsp;}&nbsp;from&nbsp;"../Types";</td><td class="diff_next"><a href="#difflib_chg_to12395__0">f</a></td><td class="diff_header" id="to12395_1">1</td><td nowrap="nowrap">import&nbsp;{&nbsp;IAnimationNode,&nbsp;IAnimationValue&nbsp;}&nbsp;from&nbsp;"../Types";</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from12395_2">2</td><td nowrap="nowrap">type&nbsp;AnimationValue&nbsp;=&nbsp;{</td><td class="diff_next"></td><td class="diff_header" id="to12395_2">2</td><td nowrap="nowrap">type&nbsp;AnimationValue&nbsp;=&nbsp;{</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from12395_3">3</td><td nowrap="nowrap">&nbsp;&nbsp;__getValue:&nbsp;()&nbsp;=&gt;&nbsp;any;</td><td class="diff_next"></td><td class="diff_header" id="to12395_3">3</td><td nowrap="nowrap">&nbsp;&nbsp;__getValue:&nbsp;()&nbsp;=&gt;&nbsp;any;</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from12395_4">4</td><td nowrap="nowrap">};</td><td class="diff_next"></td><td class="diff_header" id="to12395_4">4</td><td nowrap="nowrap">};</td></tr>
+            <tr><td class="diff_next" id="difflib_chg_to12395__0"></td><td class="diff_header" id="from12395_5">5</td><td nowrap="nowrap">type&nbsp;StackItem&nbsp;=&nbsp;{</td><td class="diff_next"></td><td class="diff_header" id="to12395_5">5</td><td nowrap="nowrap">type&nbsp;StackItem&nbsp;=&nbsp;{</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from12395_6">6</td><td nowrap="nowrap">&nbsp;&nbsp;name:&nbsp;string;</td><td class="diff_next"></td><td class="diff_header" id="to12395_6">6</td><td nowrap="nowrap">&nbsp;&nbsp;name:&nbsp;string;</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from12395_7">7</td><td nowrap="nowrap">&nbsp;&nbsp;children:&nbsp;IAnimationNode[];</td><td class="diff_next"></td><td class="diff_header" id="to12395_7">7</td><td nowrap="nowrap">&nbsp;&nbsp;children:&nbsp;IAnimationNode[];</td></tr>
+            <tr><td class="diff_next" id="difflib_chg_to12395__1"></td><td class="diff_header" id="from12395_8">8</td><td nowrap="nowrap">};</td><td class="diff_next"></td><td class="diff_header" id="to12395_8">8</td><td nowrap="nowrap">};</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from12395_9">9</td><td nowrap="nowrap">const&nbsp;createProxyNode&nbsp;=&nbsp;()&nbsp;=&gt;&nbsp;{</td><td class="diff_next"></td><td class="diff_header" id="to12395_9">9</td><td nowrap="nowrap">const&nbsp;createProxyNode&nbsp;=&nbsp;()&nbsp;=&gt;&nbsp;{</td></tr>
+            <tr><td class="diff_next"><a href="#difflib_chg_to12395__1">n</a></td><td class="diff_header" id="from12395_10">10</td><td nowrap="nowrap"><span class="diff_sub">&nbsp;&nbsp;const&nbsp;_argStack&nbsp;=&nbsp;new&nbsp;Array&lt;IAnimationNode&gt;();</span></td><td class="diff_next"><a href="#difflib_chg_to12395__1">n</a></td><td class="diff_header" id="to12395_10">10</td><td nowrap="nowrap"><span class="diff_add">&nbsp;&nbsp;const&nbsp;_argStack:&nbsp;IAnimationNode[]&nbsp;=&nbsp;[];</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from12395_11">11</td><td nowrap="nowrap">&nbsp;&nbsp;return&nbsp;{</td><td class="diff_next"></td><td class="diff_header" id="to12395_11">11</td><td nowrap="nowrap">&nbsp;&nbsp;return&nbsp;{</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from12395_12">12</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;_argStack,</td><td class="diff_next"></td><td class="diff_header" id="to12395_12">12</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;_argStack,</td></tr>
+            <tr><td class="diff_next"><a href="#difflib_chg_to12395__top">t</a></td><td class="diff_header" id="from12395_13">13</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;beginCall:&nbsp;(value:&nbsp;IAnimationNode)&nbsp;=&gt;&nbsp;{<span class="diff_sub">},</span></td><td class="diff_next"><a href="#difflib_chg_to12395__top">t</a></td><td class="diff_header" id="to12395_13">13</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;beginCall:&nbsp;(value:&nbsp;IAnimationNode)&nbsp;=&gt;&nbsp;{</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to12395_14">14</td><td nowrap="nowrap"><span class="diff_add">&nbsp;&nbsp;&nbsp;&nbsp;},</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from12395_14">14</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;endCall:&nbsp;()&nbsp;=&gt;&nbsp;{<span class="diff_sub">},</span></td><td class="diff_next"></td><td class="diff_header" id="to12395_15">15</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;endCall:&nbsp;()&nbsp;=&gt;&nbsp;{</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to12395_16">16</td><td nowrap="nowrap"><span class="diff_add">&nbsp;&nbsp;&nbsp;&nbsp;},</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from12395_15">15</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;setValue:&nbsp;(value:&nbsp;IAnimationNode)&nbsp;=&gt;&nbsp;{<span class="diff_sub">},</span></td><td class="diff_next"></td><td class="diff_header" id="to12395_17">17</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;setValue:&nbsp;(value:&nbsp;IAnimationNode)&nbsp;=&gt;&nbsp;{</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to12395_18">18</td><td nowrap="nowrap"><span class="diff_add">&nbsp;&nbsp;&nbsp;&nbsp;},</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from12395_16">16</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;__getValue:&nbsp;()&nbsp;=&gt;&nbsp;{<span class="diff_sub">},</span></td><td class="diff_next"></td><td class="diff_header" id="to12395_19">19</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;__getValue:&nbsp;()&nbsp;=&gt;&nbsp;{</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to12395_20">20</td><td nowrap="nowrap"><span class="diff_add">&nbsp;&nbsp;&nbsp;&nbsp;},</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from12395_17">17</td><td nowrap="nowrap">&nbsp;&nbsp;};</td><td class="diff_next"></td><td class="diff_header" id="to12395_21">21</td><td nowrap="nowrap">&nbsp;&nbsp;};</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from12395_18">18</td><td nowrap="nowrap">};</td><td class="diff_next"></td><td class="diff_header" id="to12395_22">22</td><td nowrap="nowrap">};</td></tr>
+        </tbody>
+    </table>
+    <table class="diff" summary="Legends">
+        <tr> <th colspan="2"> Legends </th> </tr>
+        <tr> <td> <table border="" summary="Colors">
+                      <tr><th> Colors </th> </tr>
+                      <tr><td class="diff_add">&nbsp;Added&nbsp;</td></tr>
+                      <tr><td class="diff_chg">Changed</td> </tr>
+                      <tr><td class="diff_sub">Deleted</td> </tr>
+                  </table></td>
+             <td> <table border="" summary="Links">
+                      <tr><th colspan="2"> Links </th> </tr>
+                      <tr><td>(f)irst change</td> </tr>
+                      <tr><td>(n)ext change</td> </tr>
+                      <tr><td>(t)op</td> </tr>
+                  </table></td> </tr>
+    </table>
+</body>
+
+</html>

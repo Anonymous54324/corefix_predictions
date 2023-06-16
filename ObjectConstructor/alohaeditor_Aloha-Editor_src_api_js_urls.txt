@@ -1,0 +1,8 @@
+direct git url to file and line number: https://www.github.com/alohaeditor/Aloha-Editor/commit/c4d7fe1950177b68aec76cab35b370c972fc0bd8/#diff-d45b1674ab37689f6ca6dc634fe29959c463fc30cb46746c3b187de88432ae4fL467
+
+commit_url: https://www.github.com/alohaeditor/Aloha-Editor/commit/c4d7fe1950177b68aec76cab35b370c972fc0bd8
+
+filename: src/api.js
+
+
+

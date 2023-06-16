@@ -1,0 +1,8 @@
+direct git url to file and line number: https://www.github.com/perkeep/perkeep/commit/761bff63c034395471dbac5c062245fcb41defe3/#diff-4c86411dcbe367bf30917a4d9893d330194e944367bf340447a2fe6979f62f8bL66
+
+commit_url: https://www.github.com/perkeep/perkeep/commit/761bff63c034395471dbac5c062245fcb41defe3
+
+filename: server/camlistored/ui/blob.js
+
+
+

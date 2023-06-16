@@ -1,0 +1,8 @@
+direct git url to file and line number: https://www.github.com/mortennobel/KickJS/commit/8e7a3e3a640c7221a3d2aee59bbd79ec28325c6b/#diff-79ddeb8058a12251d311fc932e6ed052c56210f11d0eca358bdfc938c064fdfcL147
+
+commit_url: https://www.github.com/mortennobel/KickJS/commit/8e7a3e3a640c7221a3d2aee59bbd79ec28325c6b
+
+filename: src/js/chunk.js
+
+
+

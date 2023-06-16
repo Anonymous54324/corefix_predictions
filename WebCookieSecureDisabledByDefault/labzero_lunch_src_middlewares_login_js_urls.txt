@@ -1,0 +1,8 @@
+direct git url to file and line number: https://www.github.com/labzero/lunch/commit/25c677725587e52ee3755ee71677cb880bcba83b/#diff-f0966900b5bcd2ace6c54b0a66e5f63c53713338c0ed22f0014645353ee94f2aL11
+
+commit_url: https://www.github.com/labzero/lunch/commit/25c677725587e52ee3755ee71677cb880bcba83b
+
+filename: src/middlewares/login.js
+
+
+

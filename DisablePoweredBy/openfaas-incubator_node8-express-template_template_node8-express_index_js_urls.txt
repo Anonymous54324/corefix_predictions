@@ -1,0 +1,8 @@
+direct git url to file and line number: https://www.github.com/openfaas-incubator/node8-express-template/commit/d7a5d5f43b093a2e21499dd86ed16dc6959ebd85/#diff-ee1e1075a1516c1e8071e6d3fc35fe2a6a215cc0893e23acfbc0702453fde8a6L7
+
+commit_url: https://www.github.com/openfaas-incubator/node8-express-template/commit/d7a5d5f43b093a2e21499dd86ed16dc6959ebd85
+
+filename: template/node8-express/index.js
+
+
+

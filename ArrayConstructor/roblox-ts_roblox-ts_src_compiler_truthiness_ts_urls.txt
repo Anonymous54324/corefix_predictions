@@ -1,0 +1,8 @@
+direct git url to file and line number: https://www.github.com/roblox-ts/roblox-ts/commit/3a4ce1d7743d27833aea9b6de5033ad43c1cc4c7/#diff-e7354ba072ab1bc0cc54a0fcbd798f2a963cbb4acafa7a1c48e502e59e9d7bb5L126
+
+commit_url: https://www.github.com/roblox-ts/roblox-ts/commit/3a4ce1d7743d27833aea9b6de5033ad43c1cc4c7
+
+filename: src/compiler/truthiness.ts
+
+
+

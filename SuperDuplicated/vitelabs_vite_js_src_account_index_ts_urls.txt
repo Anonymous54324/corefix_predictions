@@ -1,0 +1,8 @@
+direct git url to file and line number: https://www.github.com/vitelabs/vite.js/commit/b103fcba697c84edecba4ddb89dbe401e33399cf/#diff-a5c90c29fe8d49b0098478c0fa55d33b19f33c7f017698dc1cb123edf047159bL29
+
+commit_url: https://www.github.com/vitelabs/vite.js/commit/b103fcba697c84edecba4ddb89dbe401e33399cf
+
+filename: src/account/index.ts
+
+
+

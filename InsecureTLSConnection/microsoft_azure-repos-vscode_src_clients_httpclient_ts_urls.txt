@@ -1,0 +1,8 @@
+direct git url to file and line number: https://www.github.com/microsoft/azure-repos-vscode/commit/4889a254f4edb24353060cad4c2c7417d2c4aad6/#diff-87d0081229d32bf50ac9509e1659e6a144c17dbab02c9c287cf6dba1515a9597L56
+
+commit_url: https://www.github.com/microsoft/azure-repos-vscode/commit/4889a254f4edb24353060cad4c2c7417d2c4aad6
+
+filename: src/clients/httpclient.ts
+
+
+

@@ -1,0 +1,8 @@
+direct git url to file and line number: https://www.github.com/rafalp/Misago/commit/eab9c7b737a9bbfc0a3d9688c7d08a3ab5d6495a/#diff-993dbf3be94cde4f680a8b41ccdac850288884b8a01e81c60f88fc945b4266f1L33
+
+commit_url: https://www.github.com/rafalp/Misago/commit/eab9c7b737a9bbfc0a3d9688c7d08a3ab5d6495a
+
+filename: misago/frontend/misago/services/ajax.js
+
+
+

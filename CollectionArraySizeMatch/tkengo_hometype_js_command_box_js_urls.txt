@@ -1,0 +1,8 @@
+direct git url to file and line number: https://www.github.com/tkengo/hometype/commit/14cc93d58dfed5095ae7206a391cf6cc540de5ce/#diff-96db5b79bf5c143e95c116afbab314095a68ceecb0ee8486d2c5f6c440dd4b90L81
+
+commit_url: https://www.github.com/tkengo/hometype/commit/14cc93d58dfed5095ae7206a391cf6cc540de5ce
+
+filename: js/command_box.js
+
+
+

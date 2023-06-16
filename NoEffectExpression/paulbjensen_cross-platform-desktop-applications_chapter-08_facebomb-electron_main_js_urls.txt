@@ -1,0 +1,8 @@
+direct git url to file and line number: https://www.github.com/paulbjensen/cross-platform-desktop-applications/commit/9d614c6805f215250a9700fef39180929daff0fa/#diff-a1637b32c3cdf1eae8713fa588da3f3121ce3ce9a58c220c7b2893224bae5e57L10
+
+commit_url: https://www.github.com/paulbjensen/cross-platform-desktop-applications/commit/9d614c6805f215250a9700fef39180929daff0fa
+
+filename: chapter-08/facebomb-electron/main.js
+
+
+

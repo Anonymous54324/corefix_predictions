@@ -1,0 +1,67 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+
+<head>
+    <meta http-equiv="Content-Type"
+          content="text/html; charset=utf-8" />
+    <title></title>
+    <style type="text/css">
+        table.diff {font-family:Courier; border:medium;}
+        .diff_header {background-color:#e0e0e0}
+        td.diff_header {text-align:right}
+        .diff_next {background-color:#c0c0c0}
+        .diff_add {background-color:#aaffaa}
+        .diff_chg {background-color:#ffff77}
+        .diff_sub {background-color:#ffaaaa}
+    </style>
+</head>
+
+<body>
+    
+    <table class="diff" id="difflib_chg_to6978__top"
+           cellspacing="0" cellpadding="0" rules="groups" >
+        <colgroup></colgroup> <colgroup></colgroup> <colgroup></colgroup>
+        <colgroup></colgroup> <colgroup></colgroup> <colgroup></colgroup>
+        <thead><tr><th class="diff_next"><br /></th><th colspan="2" class="diff_header">Code Reduced Buggy packages/server/src/app.js</th><th class="diff_next"><br /></th><th colspan="2" class="diff_header">Code Reduced Fixed packages/server/src/app.js</th></tr></thead>
+        <tbody>
+            <tr><td class="diff_next" id="difflib_chg_to6978__0"><a href="#difflib_chg_to6978__0">f</a></td><td class="diff_header" id="from6978_1">1</td><td nowrap="nowrap">import&nbsp;session&nbsp;from&nbsp;'express-session';</td><td class="diff_next"><a href="#difflib_chg_to6978__0">f</a></td><td class="diff_header" id="to6978_1">1</td><td nowrap="nowrap">import&nbsp;session&nbsp;from&nbsp;'express-session';</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from6978_2">2</td><td nowrap="nowrap">const&nbsp;start&nbsp;=&nbsp;(options&nbsp;=&nbsp;{})&nbsp;=&gt;&nbsp;{</td><td class="diff_next"></td><td class="diff_header" id="to6978_2">2</td><td nowrap="nowrap">const&nbsp;start&nbsp;=&nbsp;(options&nbsp;=&nbsp;{})&nbsp;=&gt;&nbsp;{</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from6978_3">3</td><td nowrap="nowrap">&nbsp;&nbsp;return&nbsp;new&nbsp;Promise((resolve,&nbsp;reject)&nbsp;=&gt;&nbsp;{</td><td class="diff_next"></td><td class="diff_header" id="to6978_3">3</td><td nowrap="nowrap">&nbsp;&nbsp;return&nbsp;new&nbsp;Promise((resolve,&nbsp;reject)&nbsp;=&gt;&nbsp;{</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from6978_4">4</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;const&nbsp;cookieSettings&nbsp;=&nbsp;{</td><td class="diff_next"></td><td class="diff_header" id="to6978_4">4</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;const&nbsp;cookieSettings&nbsp;=&nbsp;{</td></tr>
+            <tr><td class="diff_next"><a href="#difflib_chg_to6978__top">t</a></td><td class="diff_header" id="from6978_5">5</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;httpOnly:&nbsp;<span class="diff_chg">fals</span>e,</td><td class="diff_next"><a href="#difflib_chg_to6978__top">t</a></td><td class="diff_header" id="to6978_5">5</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;httpOnly:&nbsp;<span class="diff_chg">tru</span>e,</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from6978_6">6</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;secure:&nbsp;false,</td><td class="diff_next"></td><td class="diff_header" id="to6978_6">6</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;secure:&nbsp;false,</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from6978_7">7</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;};</td><td class="diff_next"></td><td class="diff_header" id="to6978_7">7</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;};</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from6978_8">8</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;app.use(</td><td class="diff_next"></td><td class="diff_header" id="to6978_8">8</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;app.use(</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from6978_9">9</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;session({</td><td class="diff_next"></td><td class="diff_header" id="to6978_9">9</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;session({</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from6978_10">10</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cookie:&nbsp;cookieSettings,</td><td class="diff_next"></td><td class="diff_header" id="to6978_10">10</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cookie:&nbsp;cookieSettings,</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from6978_11">11</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;secret:&nbsp;'test',</td><td class="diff_next"></td><td class="diff_header" id="to6978_11">11</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;secret:&nbsp;'test',</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from6978_12">12</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;resave:&nbsp;false,</td><td class="diff_next"></td><td class="diff_header" id="to6978_12">12</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;resave:&nbsp;false,</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from6978_13">13</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;saveUninitialized:&nbsp;false,</td><td class="diff_next"></td><td class="diff_header" id="to6978_13">13</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;saveUninitialized:&nbsp;false,</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from6978_14">14</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;store,</td><td class="diff_next"></td><td class="diff_header" id="to6978_14">14</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;store,</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from6978_15">15</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;})</td><td class="diff_next"></td><td class="diff_header" id="to6978_15">15</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;})</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from6978_16">16</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;);</td><td class="diff_next"></td><td class="diff_header" id="to6978_16">16</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;);</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from6978_17">17</td><td nowrap="nowrap">&nbsp;&nbsp;});</td><td class="diff_next"></td><td class="diff_header" id="to6978_17">17</td><td nowrap="nowrap">&nbsp;&nbsp;});</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from6978_18">18</td><td nowrap="nowrap">};</td><td class="diff_next"></td><td class="diff_header" id="to6978_18">18</td><td nowrap="nowrap">};</td></tr>
+        </tbody>
+    </table>
+    <table class="diff" summary="Legends">
+        <tr> <th colspan="2"> Legends </th> </tr>
+        <tr> <td> <table border="" summary="Colors">
+                      <tr><th> Colors </th> </tr>
+                      <tr><td class="diff_add">&nbsp;Added&nbsp;</td></tr>
+                      <tr><td class="diff_chg">Changed</td> </tr>
+                      <tr><td class="diff_sub">Deleted</td> </tr>
+                  </table></td>
+             <td> <table border="" summary="Links">
+                      <tr><th colspan="2"> Links </th> </tr>
+                      <tr><td>(f)irst change</td> </tr>
+                      <tr><td>(n)ext change</td> </tr>
+                      <tr><td>(t)op</td> </tr>
+                  </table></td> </tr>
+    </table>
+</body>
+
+</html>

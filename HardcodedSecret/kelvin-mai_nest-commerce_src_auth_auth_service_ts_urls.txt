@@ -1,0 +1,8 @@
+direct git url to file and line number: https://www.github.com/kelvin-mai/nest-commerce/commit/7af0a4f2d46b2015f9e37879cb9fa5cda75c79e0/#diff-aea62a4c305374791411369a46e8553d716a032a03bb48136176873887e3311cL11
+
+commit_url: https://www.github.com/kelvin-mai/nest-commerce/commit/7af0a4f2d46b2015f9e37879cb9fa5cda75c79e0
+
+filename: src/auth/auth.service.ts
+
+
+

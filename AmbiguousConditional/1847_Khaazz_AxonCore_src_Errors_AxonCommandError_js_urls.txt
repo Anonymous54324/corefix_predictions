@@ -1,0 +1,8 @@
+direct git url to file and line number: https://www.github.com/Khaazz/AxonCore/commit/2555ef35ca3505df5681c314fb9241db4f4ce657/#diff-0a21053d2f25305e528430d09ac0f4ed745c8ec82c7a666ccde107d9891f2238L36
+
+commit_url: https://www.github.com/Khaazz/AxonCore/commit/2555ef35ca3505df5681c314fb9241db4f4ce657
+
+filename: src/Errors/AxonCommandError.js
+
+
+

@@ -1,0 +1,60 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+
+<head>
+    <meta http-equiv="Content-Type"
+          content="text/html; charset=utf-8" />
+    <title></title>
+    <style type="text/css">
+        table.diff {font-family:Courier; border:medium;}
+        .diff_header {background-color:#e0e0e0}
+        td.diff_header {text-align:right}
+        .diff_next {background-color:#c0c0c0}
+        .diff_add {background-color:#aaffaa}
+        .diff_chg {background-color:#ffff77}
+        .diff_sub {background-color:#ffaaaa}
+    </style>
+</head>
+
+<body>
+    
+    <table class="diff" id="difflib_chg_to3020__top"
+           cellspacing="0" cellpadding="0" rules="groups" >
+        <colgroup></colgroup> <colgroup></colgroup> <colgroup></colgroup>
+        <colgroup></colgroup> <colgroup></colgroup> <colgroup></colgroup>
+        <thead><tr><th class="diff_next"><br /></th><th colspan="2" class="diff_header">Code Reduced Buggy semantic-epa-backend/semantic-epa-server/src/main/webapp/assembly.js</th><th class="diff_next"><br /></th><th colspan="2" class="diff_header">Code Reduced Fixed semantic-epa-backend/semantic-epa-server/src/main/webapp/assembly.js</th></tr></thead>
+        <tbody>
+            <tr><td class="diff_next" id="difflib_chg_to3020__1"><a href="#difflib_chg_to3020__0">f</a></td><td class="diff_header" id="from3020_1">1</td><td nowrap="nowrap">function&nbsp;saveInStaticProperties(options){</td><td class="diff_next"><a href="#difflib_chg_to3020__0">f</a></td><td class="diff_header" id="to3020_1">1</td><td nowrap="nowrap">function&nbsp;saveInStaticProperties(options){</td></tr>
+            <tr><td class="diff_next"><a href="#difflib_chg_to3020__1">n</a></td><td class="diff_header" id="from3020_2">2</td><td nowrap="nowrap">&nbsp;&nbsp;for&nbsp;(;&nbsp;i&nbsp;&lt;&nbsp;options.length;&nbsp;i++){</td><td class="diff_next"><a href="#difflib_chg_to3020__1">n</a></td><td class="diff_header" id="to3020_2">2</td><td nowrap="nowrap">&nbsp;&nbsp;for&nbsp;(<span class="diff_add">var&nbsp;i&nbsp;=&nbsp;0</span>;&nbsp;i&nbsp;&lt;&nbsp;options.length;&nbsp;i++){</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from3020_3">3</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;switch&nbsp;($currentElement.data("JSON").staticProperties[i].input.properties.elementType){</td><td class="diff_next"></td><td class="diff_header" id="to3020_3">3</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;switch&nbsp;($currentElement.data("JSON").staticProperties[i].input.properties.elementType){</td></tr>
+            <tr><td class="diff_next"><a href="#difflib_chg_to3020__top">t</a></td><td class="diff_header" id="from3020_4">4</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;case&nbsp;"RADIO_INPUT"&nbsp;<span class="diff_sub">||&nbsp;"SELECT_INPUT"</span>:</td><td class="diff_next"><a href="#difflib_chg_to3020__top">t</a></td><td class="diff_header" id="to3020_4">4</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;case&nbsp;"RADIO_INPUT"&nbsp;:</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to3020_5">5</td><td nowrap="nowrap"><span class="diff_add">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;case&nbsp;"SELECT_INPUT"&nbsp;:</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from3020_5">5</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;continue;</td><td class="diff_next"></td><td class="diff_header" id="to3020_6">6</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;continue;</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from3020_6">6</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;case&nbsp;"TEXT_INPUT":</td><td class="diff_next"></td><td class="diff_header" id="to3020_7">7</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;case&nbsp;"TEXT_INPUT":</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from3020_7">7</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;continue;</td><td class="diff_next"></td><td class="diff_header" id="to3020_8">8</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;continue;</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from3020_8">8</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;}</td><td class="diff_next"></td><td class="diff_header" id="to3020_9">9</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;}</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from3020_9">9</td><td nowrap="nowrap">&nbsp;&nbsp;}</td><td class="diff_next"></td><td class="diff_header" id="to3020_10">10</td><td nowrap="nowrap">&nbsp;&nbsp;}</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from3020_10">10</td><td nowrap="nowrap">}</td><td class="diff_next"></td><td class="diff_header" id="to3020_11">11</td><td nowrap="nowrap">}</td></tr>
+        </tbody>
+    </table>
+    <table class="diff" summary="Legends">
+        <tr> <th colspan="2"> Legends </th> </tr>
+        <tr> <td> <table border="" summary="Colors">
+                      <tr><th> Colors </th> </tr>
+                      <tr><td class="diff_add">&nbsp;Added&nbsp;</td></tr>
+                      <tr><td class="diff_chg">Changed</td> </tr>
+                      <tr><td class="diff_sub">Deleted</td> </tr>
+                  </table></td>
+             <td> <table border="" summary="Links">
+                      <tr><th colspan="2"> Links </th> </tr>
+                      <tr><td>(f)irst change</td> </tr>
+                      <tr><td>(n)ext change</td> </tr>
+                      <tr><td>(t)op</td> </tr>
+                  </table></td> </tr>
+    </table>
+</body>
+
+</html>

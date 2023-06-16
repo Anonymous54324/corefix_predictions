@@ -1,0 +1,8 @@
+direct git url to file and line number: https://www.github.com/handshake-org/hsd/commit/28cd43045dd1e8bc6b3442847ca406b7207d9ea8/#diff-42b83182b06def6e27a9560e072a3006722247c19618dcd0ee9344dd6ff220a7L1015
+
+commit_url: https://www.github.com/handshake-org/hsd/commit/28cd43045dd1e8bc6b3442847ca406b7207d9ea8
+
+filename: lib/utils/encoding.js
+
+
+

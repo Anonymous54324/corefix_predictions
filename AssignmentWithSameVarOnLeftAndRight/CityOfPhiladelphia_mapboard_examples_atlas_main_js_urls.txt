@@ -1,0 +1,8 @@
+direct git url to file and line number: https://www.github.com/CityOfPhiladelphia/mapboard/commit/369ce5bc409f4f96c6bdec92f874a9a79c0948fd/#diff-d678dfcb8be76b6414c13e8957b6036e1566be935c47cb94dca95cc8f61b645dL74
+
+commit_url: https://www.github.com/CityOfPhiladelphia/mapboard/commit/369ce5bc409f4f96c6bdec92f874a9a79c0948fd
+
+filename: examples/atlas/main.js
+
+
+

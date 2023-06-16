@@ -1,0 +1,8 @@
+direct git url to file and line number: https://www.github.com/JamieMason/shrinkpack/commit/ff6222520149d314e2035612969ac48e62466063/#diff-29cec2053ed5d87c7e256e2b8c9202b8e9a5f3edde07ae79c53f6e7946987d4aL7
+
+commit_url: https://www.github.com/JamieMason/shrinkpack/commit/ff6222520149d314e2035612969ac48e62466063
+
+filename: src/lib/get-integrity.ts
+
+
+
