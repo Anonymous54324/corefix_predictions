@@ -1,0 +1,8 @@
+direct git url to file and line number: https://www.github.com/zeit/now-examples/commit/dbee67a5471624fa808b9fb2c35e866260aaf52e/#diff-dbff8187135f09e3720c91466c8292edf8df9f5a49abb1c800cd1f4a2c8da859L28
+
+commit_url: https://www.github.com/zeit/now-examples/commit/dbee67a5471624fa808b9fb2c35e866260aaf52e
+
+filename: typescript/src/backend/get-sushi/index.ts
+
+
+

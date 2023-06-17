@@ -1,0 +1,8 @@
+direct git url to file and line number: https://www.github.com/gpbl/isomorphic500/commit/4a9e3a0ebc0a87b8df7fca49f5a3e797fa1404cc/#diff-02bedb39cb8b25670e4e85144002f256b1a04373d239a9454a650ad1827a13ebL14
+
+commit_url: https://www.github.com/gpbl/isomorphic500/commit/4a9e3a0ebc0a87b8df7fca49f5a3e797fa1404cc
+
+filename: app/server.js
+
+
+

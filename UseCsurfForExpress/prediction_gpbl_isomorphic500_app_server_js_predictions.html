@@ -1,0 +1,59 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+
+<head>
+    <meta http-equiv="Content-Type"
+          content="text/html; charset=utf-8" />
+    <title></title>
+    <style type="text/css">
+        table.diff {font-family:Courier; border:medium;}
+        .diff_header {background-color:#e0e0e0}
+        td.diff_header {text-align:right}
+        .diff_next {background-color:#c0c0c0}
+        .diff_add {background-color:#aaffaa}
+        .diff_chg {background-color:#ffff77}
+        .diff_sub {background-color:#ffaaaa}
+    </style>
+</head>
+
+<body>
+    
+    <table class="diff" id="difflib_chg_to8740__top"
+           cellspacing="0" cellpadding="0" rules="groups" >
+        <colgroup></colgroup> <colgroup></colgroup> <colgroup></colgroup>
+        <colgroup></colgroup> <colgroup></colgroup> <colgroup></colgroup>
+        <thead><tr><th class="diff_next"><br /></th><th colspan="2" class="diff_header">Code Reduced Buggy app/server.js</th><th class="diff_next"><br /></th><th colspan="2" class="diff_header">Code Reduced Fixed app/server.js</th></tr></thead>
+        <tbody>
+            <tr><td class="diff_next" id="difflib_chg_to8740__1"><a href="#difflib_chg_to8740__0">f</a></td><td class="diff_header" id="from8740_1">1</td><td nowrap="nowrap">import&nbsp;path&nbsp;from&nbsp;"path";</td><td class="diff_next"><a href="#difflib_chg_to8740__0">f</a></td><td class="diff_header" id="to8740_1">1</td><td nowrap="nowrap">import&nbsp;path&nbsp;from&nbsp;"path";</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from8740_2">2</td><td nowrap="nowrap">import&nbsp;express&nbsp;from&nbsp;"express";</td><td class="diff_next"></td><td class="diff_header" id="to8740_2">2</td><td nowrap="nowrap">import&nbsp;express&nbsp;from&nbsp;"express";</td></tr>
+            <tr><td class="diff_next"><a href="#difflib_chg_to8740__1">n</a></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"><a href="#difflib_chg_to8740__1">n</a></td><td class="diff_header" id="to8740_3">3</td><td nowrap="nowrap"><span class="diff_add">import&nbsp;csurf&nbsp;from&nbsp;"csurf";</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from8740_3">3</td><td nowrap="nowrap">const&nbsp;server&nbsp;=&nbsp;express();</td><td class="diff_next"></td><td class="diff_header" id="to8740_4">4</td><td nowrap="nowrap">const&nbsp;server&nbsp;=&nbsp;express();</td></tr>
+            <tr><td class="diff_next"><a href="#difflib_chg_to8740__top">t</a></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"><a href="#difflib_chg_to8740__top">t</a></td><td class="diff_header" id="to8740_5">5</td><td nowrap="nowrap"><span class="diff_add">server.use(csurf({&nbsp;cookie:&nbsp;true&nbsp;}));</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from8740_4">4</td><td nowrap="nowrap">if&nbsp;(server.get("env")&nbsp;===&nbsp;"production")&nbsp;{</td><td class="diff_next"></td><td class="diff_header" id="to8740_6">6</td><td nowrap="nowrap">if&nbsp;(server.get("env")&nbsp;===&nbsp;"production")&nbsp;{</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from8740_5">5</td><td nowrap="nowrap">&nbsp;&nbsp;server.use(express.static(path.resolve(__dirname,&nbsp;"../public"),&nbsp;{</td><td class="diff_next"></td><td class="diff_header" id="to8740_7">7</td><td nowrap="nowrap">&nbsp;&nbsp;server.use(express.static(path.resolve(__dirname,&nbsp;"../public"),&nbsp;{</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from8740_6">6</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;maxAge:&nbsp;365&nbsp;*&nbsp;24&nbsp;*&nbsp;60&nbsp;*&nbsp;60</td><td class="diff_next"></td><td class="diff_header" id="to8740_8">8</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;maxAge:&nbsp;365&nbsp;*&nbsp;24&nbsp;*&nbsp;60&nbsp;*&nbsp;60</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from8740_7">7</td><td nowrap="nowrap">&nbsp;&nbsp;}));</td><td class="diff_next"></td><td class="diff_header" id="to8740_9">9</td><td nowrap="nowrap">&nbsp;&nbsp;}));</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from8740_8">8</td><td nowrap="nowrap">}</td><td class="diff_next"></td><td class="diff_header" id="to8740_10">10</td><td nowrap="nowrap">}</td></tr>
+        </tbody>
+    </table>
+    <table class="diff" summary="Legends">
+        <tr> <th colspan="2"> Legends </th> </tr>
+        <tr> <td> <table border="" summary="Colors">
+                      <tr><th> Colors </th> </tr>
+                      <tr><td class="diff_add">&nbsp;Added&nbsp;</td></tr>
+                      <tr><td class="diff_chg">Changed</td> </tr>
+                      <tr><td class="diff_sub">Deleted</td> </tr>
+                  </table></td>
+             <td> <table border="" summary="Links">
+                      <tr><th colspan="2"> Links </th> </tr>
+                      <tr><td>(f)irst change</td> </tr>
+                      <tr><td>(n)ext change</td> </tr>
+                      <tr><td>(t)op</td> </tr>
+                  </table></td> </tr>
+    </table>
+</body>
+
+</html>

@@ -1,0 +1,8 @@
+direct git url to file and line number: https://www.github.com/Uriopass/Collagol/commit/e4ac4306a310667d8cce1399ce42468f675a3a85/#diff-a71ffd9d181e2bdcf2d39d08a9944f3c47d01d341420ce2cc8a9d2f4c6c708c0L62
+
+commit_url: https://www.github.com/Uriopass/Collagol/commit/e4ac4306a310667d8cce1399ce42468f675a3a85
+
+filename: data/index.js
+
+
+

@@ -1,0 +1,8 @@
+direct git url to file and line number: https://www.github.com/tabixio/tabix/commit/5a98e4a22a7217961d1fd5e6cd9da5820d652c6f/#diff-b14b8b5c93770482ce529c1b50f76bc2c39d522cf70318ed524968e43d03a866L635
+
+commit_url: https://www.github.com/tabixio/tabix/commit/5a98e4a22a7217961d1fd5e6cd9da5820d652c6f
+
+filename: src/app/draw/drawEcharts.js
+
+
+

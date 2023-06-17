@@ -1,0 +1,8 @@
+direct git url to file and line number: https://www.github.com/ajmueller/express-auth-session/commit/aefb7755de0d7749ad9e0051f8ae94cb49f3b49a/#diff-e07d531ac040ce3f40e0ce632ac2a059d7cd60f20e61f78268ac3be015b3b28fL20
+
+commit_url: https://www.github.com/ajmueller/express-auth-session/commit/aefb7755de0d7749ad9e0051f8ae94cb49f3b49a
+
+filename: app.js
+
+
+

@@ -1,0 +1,8 @@
+direct git url to file and line number: https://www.github.com/jlindsey/grunt-external-daemon/commit/edf5f037d1d8e2e1f006a2d9bef91be846bae37b/#diff-16be36dee5eb13e41c2c5b9b08f15ef7ee12982490aea153c7dff030e011ad28L11
+
+commit_url: https://www.github.com/jlindsey/grunt-external-daemon/commit/edf5f037d1d8e2e1f006a2d9bef91be846bae37b
+
+filename: test/fixtures/output_server.js
+
+
+
