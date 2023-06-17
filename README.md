@@ -1,6 +1,6 @@
 # CoReFix Prediction Samples
 
-This repository contains generated patches by CoReFix. All the samples are taken from the test dataset.
+This repository contains generated patches by CoReFix. All the samples are taken from the test dataset. Also, note that we published two detailed patch in Appendix.
 The pathes are code reduced versions of the files to provide better visibility.
 In case you want to see the full version of the files, we also included github urls. 
 Each patch has a .html file highlighting the pre and post versions and .txt file containing github links
