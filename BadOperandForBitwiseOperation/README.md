@@ -1,0 +1,7 @@
+rafalp_Misago_misago_frontend_misago_services_ajax_js: 
+
+[prediction_rafalp_Misago_misago_frontend_misago_services_ajax_js_predictions.html](./prediction_rafalp_Misago_misago_frontend_misago_services_ajax_js_predictions.html)
+
+[rafalp_Misago_misago_frontend_misago_services_ajax_js_urls.txt](./rafalp_Misago_misago_frontend_misago_services_ajax_js_urls.txt)
+
+<hr>

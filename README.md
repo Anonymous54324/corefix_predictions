@@ -12,18 +12,17 @@ The other url is the link to the commit.
 We have all the predictions for all our experiments and models saved and would be happy to publish them.
 
 # Structure of the repo for a single rule
-
+```
 ├── AmbiguousConditional \
 │   ├── *.html // delta for pre_code and model prediction \
 │   ├── *.txt// contains github urls \
 │   ├── ...
 └── README.md 
-
+```
 
 # How to view the samples?
 
-1. Clone this repo
-2. You can now open the html files in your local browser. Simply click and go thorught the files in your favorite file explorer app as you wish
+Use this web-viewer https://anonymous54324.github.io/corefix_predictions/
 
 # Note about GitHub URLs
 
@@ -32,6 +31,89 @@ In rare cases github urls will not lead you to the correct place. This is not a 
 In such cases, you can open the github repo, find the file (filename is provided in html files) and search the history of that file. Some of the commits close to the given commit hash must contain the presented changes.
 
 
-
 # Rules
+
+[AmbiguousConditional](./AmbiguousConditional)
+
+[ArrayConstructor](./ArrayConstructor)
+
+[AssignToExports](./AssignToExports)
+
+[AssignmentWithSameVarOnLeftAndRight](./AssignmentWithSameVarOnLeftAndRight)
+
+[BadAwaitExpression](./BadAwaitExpression)
+
+[BadOperandForBitwiseOperation](./BadOperandForBitwiseOperation)
+
+[BadWrapperObjectCreation](./BadWrapperObjectCreation)
+
+[BooleanObjectCreation](./BooleanObjectCreation)
+
+[CodeInjection](./CodeInjection)
+
+[CollectionArraySizeMatch](./CollectionArraySizeMatch)
+
+[CommaOrSwitch](./CommaOrSwitch)
+
+[ConditionWithAssign](./ConditionWithAssign)
+
+[ContentTypeNoCharset](./ContentTypeNoCharset)
+
+[DOMXSS](./DOMXSS)
+
+[DisablePoweredBy](./DisablePoweredBy)
+
+[ElectronLoadInsecureContent](./ElectronLoadInsecureContent)
+
+[ExceptionIsNotThrown](./ExceptionIsNotThrown)
+
+[GlobalReplacementRegex](./GlobalReplacementRegex)
+
+[HardcodedNonCryptoSecret](./HardcodedNonCryptoSecret)
+
+[HardcodedSecret](./HardcodedSecret)
+
+[IncorrectHtmlEscape](./IncorrectHtmlEscape)
+
+[InsecureCipherNoIntegrity](./InsecureCipherNoIntegrity)
+
+[InsecureHash](./InsecureHash)
+
+[InsecureTLSConnection](./InsecureTLSConnection)
+
+[LoopConditionLengthMissing](./LoopConditionLengthMissing)
+
+[MemberExpressionTypo](./MemberExpressionTypo)
+
+[NoEffectExpression](./NoEffectExpression)
+
+[NodeBufferNoOffset](./NodeBufferNoOffset)
+
+[ObjectConstructor](./ObjectConstructor)
+
+[OperatorPrecedence](./OperatorPrecedence)
+
+[ReactApiTypo](./ReactApiTypo)
+
+[ReactForwardPropsToSuper](./ReactForwardPropsToSuper)
+
+[ServerLeak](./ServerLeak)
+
+[SuperDuplicated](./SuperDuplicated)
+
+[ThisBeforeSuper](./ThisBeforeSuper)
+
+[UseCsurfForExpress](./UseCsurfForExpress)
+
+[UseHelmetForExpress](./UseHelmetForExpress)
+
+[UseSecureWebsockets](./UseSecureWebsockets)
+
+[Utf8Literal](./Utf8Literal)
+
+[WebCookieHttpOnlyDisabledByDefault](./WebCookieHttpOnlyDisabledByDefault)
+
+[WebCookieHttpOnlyDisabledExplicitly](./WebCookieHttpOnlyDisabledExplicitly)
+
+[WebCookieSecureDisabledByDefault](./WebCookieSecureDisabledByDefault)
 

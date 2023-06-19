@@ -1,0 +1,7 @@
+zeit_now-examples_typescript_src_backend_get-sushi_index_ts: 
+
+[prediction_zeit_now-examples_typescript_src_backend_get-sushi_index_ts_predictions.html](./prediction_zeit_now-examples_typescript_src_backend_get-sushi_index_ts_predictions.html)
+
+[zeit_now-examples_typescript_src_backend_get-sushi_index_ts_urls.txt](./zeit_now-examples_typescript_src_backend_get-sushi_index_ts_urls.txt)
+
+<hr>

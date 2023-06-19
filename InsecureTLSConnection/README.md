@@ -1,0 +1,7 @@
+microsoft_azure-repos-vscode_src_clients_httpclient_ts: 
+
+[prediction_microsoft_azure-repos-vscode_src_clients_httpclient_ts_predictions.html](./prediction_microsoft_azure-repos-vscode_src_clients_httpclient_ts_predictions.html)
+
+[microsoft_azure-repos-vscode_src_clients_httpclient_ts_urls.txt](./microsoft_azure-repos-vscode_src_clients_httpclient_ts_urls.txt)
+
+<hr>
