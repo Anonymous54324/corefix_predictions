@@ -1,3 +1,5 @@
+> NOTE: plese use the web-viewer https://anonymous54324.github.io/corefix_predictions/
+
 # CoReFix Prediction Samples
 
 This repository contains generated patches by CoReFix. All the samples are taken from the test dataset. Also, note that we published two detailed patch in Appendix.
@@ -22,8 +24,7 @@ We have all the predictions for all our experiments and models saved and would b
 
 # How to view the samples?
 
-1. Clone this repo
-2. You can now open the html files in your local browser. Simply click and go thorught the files in your favorite file explorer app as you wish
+Use the web viewer https://anonymous54324.github.io/corefix_predictions/
 
 # Note about GitHub URLs
 
