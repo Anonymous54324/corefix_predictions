@@ -31,3 +31,7 @@ In rare cases github urls will not lead you to the correct place. This is not a 
 
 In such cases, you can open the github repo, find the file (filename is provided in html files) and search the history of that file. Some of the commits close to the given commit hash must contain the presented changes.
 
+
+
+# Rules
+
